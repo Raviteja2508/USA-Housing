@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Nov 17 06:27:40 2018
 
-@author: lenovo
-"""
-##   Problem statement
 
 ###Create a model to predict housing prices based off of existing feature
 
@@ -18,7 +13,7 @@ import seaborn as sns
 
 %matplotlib.inline
 
-##
+
 
 
 ########Import Libraries
@@ -93,7 +88,7 @@ print('MSE:', metrics.mean_squared_error(y_test, predictions))
 print('RMSE:', np.sqrt(metrics.mean_squared_error(y_test, predictions)))
 print('r_square_value :',r_squared)
 
-## MAE - Mean Average error - Understand average error
+
 
 
 
